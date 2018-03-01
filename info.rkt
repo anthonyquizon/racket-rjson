@@ -1,8 +1,7 @@
 #lang info
-(define collection "racket-json")
-(define deps '("base"))
+(define collection "rjson")
+(define deps '("base" "brag"))
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
-(define scribblings '(("scribblings/racket-json.scrbl" ())))
 (define pkg-desc "Description Here")
 (define version "0.0")
 (define pkg-authors '(anthonyquizon))
